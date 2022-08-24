@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/d40534ccd9.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+<style>
+    *{
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+    }
+    #navbar{
+        width: 1705px;
+        height: 80px;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+        border: 1px solid;
+        font-family: 'Poppins', sans-serif;
+    }
+    #navbar>div:nth-child(1){
+        width: 70%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 40px;
+    }
+    #navbar>div:nth-child(2){
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 5px;
+    }
+    #navbar>div:nth-child(2)>button{
+        padding: 10px 20px 10px 20px;
+        border: 0.5px solid;
+        border-radius: 5px;
+        background-color: white;
+    }
+    #navbar>div:nth-child(2)>button:hover{
+        background-color: #f7821c;
+        color: white;
+    }
+</style>
+<body>
+    <div id="navbar">
+      <div>
+       <a href="./navbar.html"><img src="https://media.monsterindia.com/trex/public/default/images/monster-logo.svg" alt="img not available"></a>
+       <p>JOB SEARCH</p>
+       <p>WORK FROM HOME</p>
+       <p>CAREER TIPS</p>
+       <p>PREMIUM SERVICES</p>
+       <p>MORE</p>
+      </div>
+      <div>
+        <button><i class="fa-solid fa-user"></i>  JOBSEEKER LOGIN</button>
+        <button>FOR EMPLOYERS</button>
+      </div>
+    </div>
+</body>
+</html>
