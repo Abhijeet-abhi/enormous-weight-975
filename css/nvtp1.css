@@ -104,46 +104,18 @@
     border:0px;
     padding:10px 12px;
   }
+  
  /* start */
-  #nvtpinbox1 {
+  .nvtp3{
+    display:flex;
+    justify-content: space-between;
     width:80%;
     margin:auto;
-    display:flex;
-    justify-content: space-evenly;
-    overflow: hidden;
-    background-color: white;
-    /* box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px; */
   }
-  
-  #nvtpinbox1 button {
-    /* border:1px solid; */
-    display: block;
+  .nvtpbtn{
+    display:block;
     background-color: white;
-    font-weight: bold;
-    color:black;
     border:0px;
-    text-align: center;
-    padding: 15px 16px;
+    font-weight: bolder;
   }
-  
-  #nvtpinbox1 button:hover {
-    font-weight: bold;
-    color: #4c4084;
-  }
-  
-
-  
-  /* .content {
-    padding: 16px;
-  } */
-  
-  .sticky {
-    position: fixed;
-    top: 0;
-    width: 100%;
-  }
-  
-  /* .sticky + .content {
-    padding-top: 60px;
-    
-  } */
+/* end */
