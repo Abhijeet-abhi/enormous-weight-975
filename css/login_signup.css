@@ -209,3 +209,136 @@
 #logInForm > div:nth-child(2) i {
   position: absolute;
 }
+
+#signupForm {
+  width: 52%;
+  height: 700px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  /* display: none; */
+  z-index: 2;
+  background-color: white;
+  padding-bottom: 10px;
+  border: 1px solid;
+  text-align: center;
+  padding-top: 50px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+#itsfree {
+  font-size: 20px;
+  font-weight: 4;
+}
+
+#CreateAcc_text {
+  font-size: 20px;
+  color: #454647;
+}
+
+#file-upload {
+  border: 1px solid red;
+  width: 387px;
+  height: 42px;
+}
+
+#email_password_div {
+  width: 590px;
+  text-align: left;
+  font-size: 15px;
+  color: gray;
+  font-weight: 300;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  justify-content: center;
+  /* border: 1px solid red; */
+  margin: auto;
+}
+
+#email_password_div input {
+  width: 590px;
+  height: 40px;
+  border: 1px solid gray;
+  border-radius: 5px;
+  padding-left: 5px;
+  margin: auto;
+}
+#phoneNumber_div {
+  width: 590px;
+  margin: auto;
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  align-items: center;
+}
+#c_code {
+  width: 20%;
+  height: 40px;
+  border: 0.5px solid gray;
+  border-radius: 5px;
+}
+#phone_num {
+  width: 80%;
+  height: 40px;
+  border: 0.5px solid gray;
+  border-radius: 5px;
+}
+
+#exp_country_div {
+  display: flex;
+  flex-direction: column;
+
+  gap: 50px;
+  height: auto;
+}
+
+#exp_country_form {
+  width: 590px;
+  height: 40px;
+  margin: auto;
+  text-align: left;
+
+  color: gray;
+  font-weight: 300;
+  margin-top: 30px;
+}
+#exp_country_form > div > label {
+  margin-top: 100px;
+  /* border: 1px solid red; */
+}
+#country_input,
+#exp_input {
+  width: 100%;
+  height: 40px;
+  border: 1px solid gray;
+  border-bottom: 1px solid #645979;
+  outline: none;
+  border-radius: 5px;
+  background-color: #ffffff;
+}
+
+ul {
+  list-style: none;
+
+  width: 100%;
+  margin-bottom: 20px;
+}
+.list {
+  width: 80%;
+  background-color: #ffffff;
+  border-radius: 0 0 5px 5px;
+  border: 1px solid gray;
+  text-align: left;
+  display: block;
+  position: absolute;
+}
+.list-items {
+  padding: 10px 5px;
+  /* display: block; */
+}
+.list-items:hover {
+  background-color: #dddddd;
+}
