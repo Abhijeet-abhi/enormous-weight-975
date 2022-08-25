@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/login_signup.css" />
+  </head>
+
+  <body>
+    <!-- Add this EvenLister -->
+    <h1 id="show_login_btn">click me to login</h1>
+
+    <!-- this div for signup -->
+    <div id="signInForm"></div>
+
+    <!-- ----------------------------------------------------- below loging form div---------------------------------------------->
+    <div id="login_div">
+      <button id="closeLogINSignUp_btn">X</button>
+      <div id="logInForm">
+        <div>
+          <h1>Welcome!</h1>
+          <h3>Log in using your Monster credentials</h3>
+        </div>
+        <div>
+          <form id="formLogin" action="">
+            <input type="email" id="emailId" placeholder="Email/Mobile" />
+
+            <input type="password" id="passLog" placeholder="Password" />
+            <p id="frgt_pass">Forgot Password</p>
+            <button id="lodin_button1">Login</button>
+            <p id="otp"><span>Or,</span>Login via OTP</p>
+          </form>
+          <div id="or_div">
+            <div class="hr_div"><hr /></div>
+            <p>OR</p>
+            <div class="hr_div"><hr /></div>
+          </div>
+          <div id="with_your">
+            <p>with your social network</p>
+          </div>
+        </div>
+        <div id="google_facebboklogin">
+          <div id="google_login">
+            <img src="./loginsignup_images/google-1.png" alt="" />
+            <p>Login with Google</p>
+          </div>
+          <div id="facebbok_login">
+            <img src="./loginsignup_images/Untitled-1 copy.jpg" alt="" />
+            <p>Login with Facebook</p>
+          </div>
+        </div>
+        <div>
+          <h3>New to Monster?</h3>
+          <p>Create your profile now and be visible to the top</p>
+          <p>recruiters in the world</p>
+          <button onclick="showSignUp()">Register with us</button>
+        </div>
+
+        <div>
+          <p>Your dream job is a click away! Get the app on</p>
+          <p>your mobile.</p>
+          <img src="./loginsignup_images/playstore.PNG" alt="" />
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+<script src="./scripts/login_signup.js"></script>
