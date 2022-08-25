@@ -1,45 +1,143 @@
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/583f110147.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./css/searchbox.css">
+    <link rel="stylesheet" href="./css/sidebar_filter.css">
     <title>Document</title>
 </head>
+
 <body>
-    
-    <div id="main-searchbox-am">
-    <i class="fa-solid fa-magnifying-glass" id="magnifying-icon"></i>
-    <i class="fa-solid fa-microphone" id="microphone-icon"></i>
-     <input type="text" name="" id="skill-am" placeholder="Search by skill, company & job">
-     <i class="fa-solid fa-location-dot"  id="location-icon"></i>
-     <input type="text" name="" id="location-am" placeholder="Location">
-     <select id="select-year-am" >
-        <option value="">0 Year</option>
-        <option value="">1 Year</option>
-        <option value="">2 Years</option>
-        <option value="">3 Years</option>
-        <option value="">4 Years</option>
-        <option value="">5 Years</option>
-        <option value="">6 Years</option>
-        <option value="">7 Years</option>
-        <option value="">8 Years</option>
-        <option value="">9 Years</option>
-        <option value="">10 Years</option>
-        <option value="">11 Years</option>
-        <option value="">12 Years</option>
-        <option value="">13 Years</option>
-        <option value="">14 Years</option>
-        <option value="">15 Years</option>
-        <option value="">16 Years</option>
-        <option value="">17 Years</option>
-        <option value="">18 Years</option>
-        <option value="">19 Years</option>
-        <option value="">20 Years</option>
-     </select>
-     <i class="fa-solid fa-briefcase" id="briefcase-icon"></i>
-     <button id="search-btn-am">Search</button>
+    <!-- this div for searchbox -->
+    <div id="main-searchbox-am"></div>
+
+    <!-- this div for sidebar filter  -->
+    <div id="body-container-am">
+
+        <!-- this is my filter part -->
+        <div id="sidebar-filter-am">
+            <!-- first part of filter -->
+            <div class="inside-sidebar">
+                <h2>Filter By</h2>
+            </div>
+            <!-- second part of filter -->
+            <div class="inside-sidebar-am">
+                <!-- subpart one -->
+                <div class="child-sidebar-am">
+                    <h2>Function</h2>
+                    <i class="fa-solid fa-plus" id="plus-am"></i>
+                </div>
+                <!-- subpart two -->
+                <div class="child-2-sidebar-am">
+                    <!-- append here -->
+                </div>
+                <!-- *********** -->
+                <div class="child-sidebar-am">
+                    <h2>Role</h2>
+                    <i class="fa-solid fa-plus" id="plus-am"></i>
+                </div>
+                <!-- subpart two -->
+                <div class="child-2-sidebar-am">
+                    <!-- append here -->
+                </div>
+                <!-- *********** -->
+                <div class="child-sidebar-am">
+                    <h2>Experience (In Years)</h2>
+                    <i class="fa-solid fa-plus" id="plus-am"></i>
+                </div>
+                <!-- subpart two -->
+                <div class="child-2-sidebar-am">
+                    <!-- append here -->
+                </div>
+                <!-- *********** -->
+                <div class="child-sidebar-am">
+                    <h2>City</h2>
+                    <i class="fa-solid fa-plus" id="plus-am"></i>
+                </div>
+                <!-- subpart two -->
+                <div class="child-2-sidebar-am">
+                    <!-- append here -->
+                </div>
+                <!-- ********** -->
+                <div class="child-sidebar-am">
+                    <h2>Salary (INR)</h2>
+                    <i class="fa-solid fa-plus" id="plus-am"></i>
+                </div>
+                <!-- subpart two -->
+                <div class="child-2-sidebar-am">
+                    <!-- append here -->
+                </div>
+                <!-- ************* -->
+                <div class="child-sidebar-am">
+                    <h2>Great Place To Work</h2>
+                    <i class="fa-solid fa-plus" id="plus-am"></i>
+                </div>
+                <!-- subpart two -->
+                <div class="child-2-sidebar-am">
+                    <!-- append here -->
+                </div>
+                <!-- ********** -->
+                <div class="child-sidebar-am">
+                    <h2>Qualification</h2>
+                    <i class="fa-solid fa-plus" id="plus-am"></i>
+                </div>
+                <!-- subpart two -->
+                <div class="child-2-sidebar-am">
+                    <!-- append here -->
+                </div>
+                <!-- ********** -->
+                <div class="child-sidebar-am">
+                    <h2>Employer Type</h2>
+                    <i class="fa-solid fa-plus" id="plus-am"></i>
+                </div>
+                <!-- subpart two -->
+                <div class="child-2-sidebar-am">
+                    <!-- append here -->
+                </div>
+                <!-- **************** -->
+                <div class="child-sidebar-am">
+                    <h2>Top Companies</h2>
+                    <i class="fa-solid fa-plus" id="plus-am"></i>
+                </div>
+                <!-- subpart two -->
+                <div class="child-2-sidebar-am">
+                    <!-- append here -->
+                </div>
+                <!-- **************** -->
+                <div class="child-sidebar-am">
+                    <h2>Industry</h2>
+                    <i class="fa-solid fa-plus" id="plus-am"></i>
+                </div>
+                <!-- subpart two -->
+                <div class="child-2-sidebar-am">
+                    <!-- append here -->
+                </div>
+                <!-- ******** -->
+                <div class="child-sidebar-am">
+                    <h2>Job Freshness</h2>
+                    <i class="fa-solid fa-plus" id="plus-am"></i>
+                </div>
+                <!-- subpart two -->
+                <div class="child-2-sidebar-am">
+                    <!-- append here -->
+                </div>
+                <!-- ************* -->
+                <div class="child-sidebar-am">
+                    <h2>Job Type</h2>
+                    <i class="fa-solid fa-plus" id="plus-am"></i>
+                    </div>
+                    <!-- subpart two -->
+                    <div class="child-2-sidebar-am">
+                        <!-- append here -->
+                    </div>
+            </div>
+        </div>
     </div>
+
 </body>
+
 </html>
+<script src="./scripts/searchbox.js" type="module"></script>
