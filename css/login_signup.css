@@ -184,6 +184,10 @@
   background-color: black;
   color: white;
   cursor: pointer;
+  border: none;
+}
+#login_div > button:hover {
+  background-color: #6c54da;
 }
 
 #or_div {
@@ -212,11 +216,11 @@
 
 #signupForm {
   width: 52%;
-  height: 700px;
+  height: 1350px;
   position: absolute;
   right: 0;
   top: 0;
-  /* display: none; */
+  display: none;
   z-index: 2;
   background-color: white;
   padding-bottom: 10px;
@@ -235,12 +239,22 @@
 #CreateAcc_text {
   font-size: 20px;
   color: #454647;
+  margin-bottom: 10px;
 }
 
 #file-upload {
-  border: 1px solid red;
+  border: 1px solid gray;
   width: 387px;
   height: 42px;
+  border-radius: 5px;
+  padding-top: 3px;
+  padding-left: 2px;
+  color: transparent;
+}
+#upload_image {
+  position: absolute;
+  margin-left: -40%;
+  margin-top: 2px;
 }
 
 #email_password_div {
@@ -310,35 +324,249 @@
   /* border: 1px solid red; */
 }
 #country_input,
-#exp_input {
+#skill_input,
+#prefered_input,
+#depart_input {
   width: 100%;
   height: 40px;
   border: 1px solid gray;
-  border-bottom: 1px solid #645979;
+  /* border-bottom: 1px solid #645979; */
   outline: none;
   border-radius: 5px;
   background-color: #ffffff;
 }
+#skill_input,
+#prefered_input,
+#depart_input {
+  border: none;
+  padding-left: 10px;
+  width: 90%;
+}
 
-ul {
-  list-style: none;
+#email_password_div > input:focus {
+  outline: none !important;
+  border: 3px solid #1ab2ec;
+  box-shadow: 0 0 10px #719ece;
+}
+
+#country_input:focus {
+  outline: none !important;
+  border: 3px solid #1ab2ec;
+  box-shadow: 0 0 10px #719ece;
+}
+#phoneNumber_div > input:focus {
+  outline: none !important;
+  border: 3px solid #1ab2ec;
+  box-shadow: 0 0 10px #719ece;
+}
+
+#skill_select,
+#prefered_select,
+#depart_select {
+  width: 100%;
+
+  border: 1px solid gray;
+  border-bottom: 1px solid #645979;
+  outline: none;
+  border-radius: 5px;
+  /* background-color: gray; */
+}
+
+#signupForm ul {
+  /* list-style: none; */
 
   width: 100%;
   margin-bottom: 20px;
 }
-.list {
+.list,
+.skill-list,
+.prefered-list,
+.depart-list {
   width: 80%;
-  background-color: #ffffff;
-  border-radius: 0 0 5px 5px;
+  height: auto;
   border: 1px solid gray;
+  border-radius: 0 0 5px 5px;
+
   text-align: left;
   display: block;
   position: absolute;
 }
-.list-items {
+.list-items,
+.list-skills,
+.list-prefered,
+.list-depart {
   padding: 10px 5px;
-  /* display: block; */
+  display: block;
+  background-color: white;
 }
-.list-items:hover {
+.list-items:hover,
+.list-skills:hover,
+.list-prefered:hover,
+.list-depart:hover {
   background-color: #dddddd;
+}
+
+#exp_div {
+  display: flex;
+  gap: 10%;
+}
+#exp_div select {
+  width: 45%;
+  height: 40px;
+  border: 1px solid gray;
+  outline: none;
+  border-radius: 5px;
+
+  margin: auto;
+}
+#cheknox_inp {
+  display: flex;
+  color: black;
+  margin-top: 30px;
+  gap: 10px;
+  margin-bottom: 30px;
+}
+#skills,
+#prefered,
+#depart {
+  display: flex;
+  gap: 10px;
+  padding-left: 10px;
+}
+#skills > p {
+  border: none;
+  border-radius: 10px;
+  padding: 5px;
+  background-color: #d8edfa;
+  color: black;
+}
+
+#prefered > p {
+  border: none;
+  border-radius: 10px;
+  padding: 5px;
+  background-color: #d8edfa;
+  color: black;
+}
+
+#depart > p {
+  border: none;
+  border-radius: 10px;
+  padding: 5px;
+  background-color: #d8edfa;
+  color: black;
+}
+
+#prefered_label,
+#depart_label {
+  margin-top: 30px;
+}
+
+#tc {
+  color: #7ac9f3;
+}
+#tc_p {
+  margin-top: 30px;
+}
+
+#regbtn {
+  display: block;
+  width: 115px;
+  height: 55px;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  background-color: #57b228;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+#regbtn:hover {
+  background-color: #3f881b;
+}
+
+#reg_btn_div {
+  display: flex;
+  justify-content: right;
+  margin-top: 30px;
+}
+
+#google_facebboklogin_signup {
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+#google_signup {
+  /* border: 1px solid red; */
+  width: 25%;
+  height: 35px;
+  border: 1px solid gray;
+  display: flex;
+  margin: 3px;
+  align-items: center;
+  cursor: pointer;
+  border-radius: 30px;
+  justify-content: center;
+  gap: 5px;
+  font-size: 14px;
+}
+#google_signup:hover {
+  background-color: #f14346;
+  color: white;
+}
+#google_signup > img {
+  border-radius: 50%;
+
+  height: 30px;
+  width: 30px;
+  background-color: rgb(234, 241, 241);
+}
+#facebbok_signup {
+  width: 27%;
+  border: 1px solid gray;
+  display: flex;
+  margin: 3px;
+  align-items: center;
+  cursor: pointer;
+  border-radius: 30px;
+  justify-content: center;
+  gap: 5px;
+  font-size: 14px;
+}
+
+#facebbok_signup > img {
+  border-radius: 50%;
+  color: gray;
+}
+#facebbok_signup:hover {
+  background-color: #3a5a99;
+  color: white;
+}
+#up_resume_text {
+  font-size: 14px;
+  color: gray;
+  margin-top: 10px;
+  text-align: left;
+  margin-left: 8%;
+  margin-bottom: 8px;
+}
+
+#upload_div {
+  display: flex;
+  /* border: 1px solid red; */
+  align-items: center;
+  width: 85%;
+
+  margin: auto;
+  margin-bottom: 20px;
+}
+#upload_div > p {
+  font-size: 12px;
+}
+#upload_div > p > span {
+  color: #1ab2ec;
+  font-size: 12px;
 }
