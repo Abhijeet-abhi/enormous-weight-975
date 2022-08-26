@@ -39,3 +39,12 @@ let toggle_visibility = () =>{
     }
 }
 
+let getData = async ()=>{
+    let url = `https://mighty-bayou-41149.herokuapp.com/job`;
+    let res = await fetch(url);
+    let data = await res.json();
+    console.log(data);
+}
+
+getData()
+
