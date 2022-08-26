@@ -1,0 +1,67 @@
+#body-container-am{
+    width: 90%;
+    /* border: 2px solid red; */
+    margin: auto;
+    margin-top: 70px;
+}
+
+#sidebar-filter-am{
+    width: 25%;
+    height: 600px;
+    /* border: 2px solid black; */
+}
+.inside-sidebar{
+    width: 100%;
+    height: 40px;
+    border: 2px solid #FFFFFF;
+    background-color: #FFFFFF;
+    margin-bottom: 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.inside-sidebar > h2{
+    font-size: 1.143em;
+    color: #787878;
+    font-weight: 400;
+    padding-left: 20px;
+}
+
+/* second part of filter */
+.inside-sidebar-am{
+    width: 100%;
+}
+.child-sidebar-am{
+    width: 100%;
+    height: 40px;
+    margin-bottom: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #FFFFFF;
+    border: 2px solid #FFFFFF;
+     
+}
+.child-sidebar-am > h2{
+    font-size: .9rem;
+    font-weight: 600;
+    padding-left: 20px;
+    padding-right: 30px;
+    color: #000;
+    font-family: sans-serif;
+}
+#plus-am{
+    padding-right: 30px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+/* after appending */
+.append-child-div{
+    width: 101%;
+    background-color: #FFFFFF;
+    margin-bottom: 4px;
+    /* border: 2px solid red; */
+}
+
