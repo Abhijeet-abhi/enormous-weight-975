@@ -158,16 +158,16 @@
                         <p style="color: #1d1e1d; text-align: center;font-size: 18px;">Toll Free No: 1-800-4196666</p>
                         <p style="color: #1d1e1d;text-align: center; font-size: 18px; margin-top: -10px;">Toll No: +91-40-66116611</p>
                     </div>
-                    <div class="rightSection">
+                    <div class="rightSection" id="rigt">
                         <div class="rightHeading">
                             <h3>CONTACT US</h3>
                             <p>Our executive will get in touch with you soon</p>
                         </div> 
                         <div class="rightInputBoxes">
                             <label for="">Name <span>*</span></label> 
-                            <input type="text" autocomplete="nope" min="1" maxlength="100" name="fullName" placeholder="Enter your full name" class="field-error"> 
+                            <input type="text" autocomplete="nope" min="1" maxlength="100" name="fullName" placeholder="Enter your full name"  id="name"> 
                             <label for="">Email ID <span>*</span></label> 
-                            <input type="email" placeholder="Enter your email-id" name="email" class="">
+                            <input type="email" placeholder="Enter your email-id" id="email">
                             <label for="">Mobile Number <span>*</span></label> 
                             <div class="isdInput">
                                 <select name="" tabindex="-1" class="countryCodes" style="opacity: 1;">
@@ -276,10 +276,10 @@
                                     <option data-name="Iran" value="98">Iran +98</option><option data-name="Iraq" value="964">Iraq +964</option>
                                     <option data-name="Ireland" value="353">Ireland +353</option>
                                     </select>
-                                    <input autocomplete="nope" type="tel" placeholder="Enter your phone number" name="Mobile Number" class="IsdInput" maxlength="10">
+                                    <input autocomplete="nope" type="tel" placeholder="Enter your phone number" name="Mobile Number" class="IsdInput" maxlength="10" id="mobile">
                             </div>
-                            <button id="callm">CALL ME BACK</button>
                         </div> 
+                        <button id="callm">CALL ME BACK</button>
                     </div>  
             </div>
             <h2 class="Gh2" style="margin: 40px 20px;">People who bought this service also bought</h2>
@@ -316,21 +316,31 @@
         </div>
         <div id="srevicePackege">
             <div class="ServiceMiddleBox">
-                <button id="one" class="GLevel">
-                    <input type="checkbox" name="" class="checkbox">
-                    <h3>1 MONTH</h3>
-                    <p>Rs 1999</p>
-                </button>
-                <button class="GLevel" id="two">
-                    <input type="checkbox" name="" class="checkbox">
-                    <h3> 3 MONTH</h3>
-                    <p>Rs 1999</p>
-                </button>
-                <button class="GLevel" id="three">
-                    <input type="checkbox" name="" class="checkbox">
-                    <h3> 1 MONTH</h3>
-                    <p>Rs 1999</p>
-                </button>
+                <label id="one" for="option-1" class="option-1">
+                    <!-- <div class="dot"><div class="dot"></div></div> -->
+                    <input type="radio" name="" id="option_1" class="dot">
+                    <div class="Gtext">
+                        <p id="month1">1 MONTH</p>
+                        <p id="price1">Rs 1999</p>
+                    </div> 
+                </label>
+                <label for="option_2" id="option-2">
+                    <!-- <div class="dot"><div class="dot"></div></div> -->
+                    <input type="radio" name="" id="option_2" class="dot" id="re">
+                    <div class="Gtext" id="re">
+                        <p id="month2">1 MONTH</p>
+                        <p id="price2">Rs 1999</p>
+                    </div> 
+                </label>
+                <label id="three" class="option-1">
+                    <!-- <div class="dot"><div class="dot"></div></div> -->
+                    <input type="radio" name="" id="option_3" class="dot">
+                    <div class="Gtext">
+                        <p id="month3">1 MONTH</p>
+                        <p id="price3">Rs 1999</p>
+                    </div> 
+                </label>
+                
             </div>
             <div id="Rbtn">
                 <button id="GRbtn">Buy Now</button>

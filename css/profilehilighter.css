@@ -337,61 +337,86 @@
     padding-top: 10px;
 }
 .ServiceMiddleBox{
-    width: 100%;
-    padding: 10px;
-    margin: auto;
-    height: 350px;
-    overflow: scroll;
-    
-}
-
-.GLevel{
     width: 90%;
-    margin: auto;
-    margin-bottom: 10px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    border: 1px solid gray;
+    padding: 10px;
+    background-color: #fff;
     border-radius: 10px;
-    height: 100px;
     
 }
-.GLevel:hover{
-    background-color: #efedf6;
+.ServiceMiddleBox label{
+    display: flex;
+    height: 60px;
+    width: 80%;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 1 px solid lightgray;
+    border-radius: 10px;
+    margin: 10px 0;
+    margin-left: 20px;
+    padding-left: 20px;
+    cursor: default;
+    border: 1px solid gray;
 }
 
-.checkbox{
-    border:1px solid ;
-    width: 1.3em;
-    height: 1.3em;
-    background-color: white;
+.ServiceMiddleBox label .dot{
+    height: 20px;
+    width: 20px;
+    background-color:#60489d;
     border-radius: 50%;
-    vertical-align: middle;
-    border: 1px solid #60489d ;
-    appearance: none;
-    outline: none;
-    cursor: pointer;
-    background-color:gray;
-    margin-left: -10px;
+    position: relative;
+    border: 1px solid #60489d;
 }
 
-#entr,#mid,#senior,#Executive{
-    /* border: 1px solid; */
-    margin-left: -5%;
-    max-width: 100px;
+.ServiceMiddleBox label .dot ::after{
+    position: absolute;
+    content: "";
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    background-color:#fff;
+    
+
 }
+.ServiceMiddleBox label .dot ::after:hover{
+    background-color: #60489d;
+}
+
+.ServiceMiddleBox label .Gtext{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    /* border: 1px solid; */
+    gap: 40px;
+    width: 100%;
+    color: #333;
+    font-weight: 600;
+    font-size: 14px;
+    padding-left: 8px;
+    padding-right: 3px;
+
+}
+
+#one:hover,#two:hover,#three:hover{
+    border-color: #60489d;
+    background-color: #efedf6;
+    /* border: 2px solid #60489d; */
+    /* background-color: pink; */
+}
+
 #rbtn{
     width: 100%;
     margin: auto;
 }
 #GRbtn{
-    width: 70%;
+    width: 80%;
     height: 40px;
     background-color: #60489d;
     border: 1px solid #60489d;
     border-radius: 7px;
-    margin-left: 15%;
+    margin-left: 10%;
     margin-top: 20px;
     color: #fff;
     font-weight: 600;
@@ -456,4 +481,24 @@
     margin-left: 20px;
     font-size: 20px;
     /* background-color: #60489d; */
+}
+#jobloc{
+    font-size: 14px;
+    /* border: 1px solid; */
+}
+.Gfir{
+    /* width: 14%; */
+    width: 200px;
+    font-size: 12px;
+}
+.Gfir>span{
+    color: red;
+
+    margin-left: 100px;
+    margin-right: -30px;
+}
+#skill_It,#non-IT,#role,#internationaljob{
+    font-size: 14px;
+    margin-top: -15px;
+    
 }
