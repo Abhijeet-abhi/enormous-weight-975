@@ -1,0 +1,45 @@
+#jobloc{
+    margin: 5% 2% 5% 5%;
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    grid-template-rows: repeat(auto);
+    gap: 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+.location{
+    
+    display: flex;
+    width:90%;
+    margin:auto;
+    /* border: 1px solid; */
+}
+.Gfir{
+    /* border: 1px solid; */
+    width: 12%;
+    margin-right: 20px;
+    margin-top: 5px;
+    
+
+}
+.Gfir>a{
+    color: #5D4DA8;
+    text-decoration: none;
+}
+.Lcsec{
+    padding-right:  0px;
+    /* border: 1px solid green; */
+    line-height: 30px;
+    width: 100%;
+    margin-left: -10px;
+    
+
+}
+.Lcsec>a{
+    color: #3C3C3C;
+    text-decoration: none;
+}
+#non-IT>div:first-child{
+    font-size: 15px;
+}
