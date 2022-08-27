@@ -1,17 +1,10 @@
 import {Jobs} from "./jobserchhtml.js"
 document.getElementById("jobloc").innerHTML=Jobs()
+import {footer,navbar} from "../components/export.js"
+document.getElementById("Gnav").innerHTML=navbar()
+document.getElementById("Gfoot").innerHTML=footer()
 
-let btn1=document.getElementById("Rbtn")
-btn1.addEventListener("click",()=>{
-    let month=document.getElementById("month1").innerText
-    let price=document.getElementById("price1").innerText
-    let data={
-        month,
-        price
-    }
-    console.log(data)
-    window.location.href="#"
-});
+
 
 function rrr(){
     return `<div id="div">
@@ -19,75 +12,21 @@ function rrr(){
     <p>We’ve received your request and will call you back within 48 hours.</p>
     </div>`
 }
-let button=document.getElementById("callm")
-button.addEventListener("click",()=>{
-    callme()
 
-})
-
-// function callme(){
-//     let cont=document.getElementById("rigt")
-    
-//     let name=document.getElementById("name").value
-//     let mobile=document.getElementById("mobile").value
-//     let email=document.getElementById("email").value
-    
-//     if(name==""||mobile==""|| email==""){
-//         alert("Fill All Data")
-//     }
-//     else{
-//         cont.innerHTML=null
-//         cont.innerHTML=rrr()
-//         // AddData(name,email,mobile)
-//     }
-//     // console.log(data)
-// }
-// // let AddData=async(name,email,mobile)=>{
-//     let data={
-//        name,
-//        email,
-//        mobile,
-//        id:Date.now()
-//     }
-//     let res=await fetch(`https://fierce-gorge-77743.herokuapp.com/userCall`,{
-//         method:"POST",
-//         body:JSON.stringify(data),
-//         headers:{
-//             "Content-Type":"application/json"
-//         }
-        
-//     })
-//     res=await res.json()
-//     console.log(res)
-
-// }
-
-
-document.getElementById("f").addEventListener("click",()=>{
-    window.location.href="http://127.0.0.1:5501/enormous-weight-975/index.html"
-    console.log("feature")
-})
-
-document.getElementById("resume").addEventListener("click",()=>{
-    window.location.href="http://127.0.0.1:5501/enormous-weight-975/resumewritting.html"
-    console.log("kkkkk")
-})
-document.getElementById("career").addEventListener("click",()=>{
-    // window.location.href="../index.html"
-    console.log("career")
-})
-document.getElementById("highlighter").addEventListener("click",()=>{
-    window.location.href="http://127.0.0.1:5501/enormous-weight-975/profileHilighter.html"
-    console.log("high")
-})
-document.getElementById("linkedIn").addEventListener("click",()=>{
-    // window.location.href="../index.html"
-    console.log("linkdn")
-})
-document.getElementById("mock").addEventListener("click",()=>{
-    // window.location.href="../index.html"
-    console.log("mock")
-})
+let btn1=document.getElementById("GRbtn")
+btn1.style.cursor="pointer"
+btn1.addEventListener("click",()=>{
+    let level=document.getElementById("h3").innerText
+    let experience=document.getElementById("p2").innerText
+    let price=document.getElementById("p3").innerText
+    let data={
+        level,
+        experience,
+        price
+    }
+    console.log(data)
+    window.location.href="index.html"
+});
 
 
 let getData=async()=>{
@@ -102,6 +41,7 @@ let imgtag2=document.getElementById("img2")
 let imgtag3=document.getElementById("img3")
 let imgNum=0;
 let Gbtn1=document.getElementById("btt1");
+Gbtn1.style.cursor="pointer"
 Gbtn1.addEventListener("click",()=>{
     
     if(imgNum>2){
@@ -116,6 +56,7 @@ Gbtn1.addEventListener("click",()=>{
 
 
 let Gbbt=document.getElementById("btt2")
+Gbbt.style.cursor="pointer"
 Gbbt.addEventListener("click",()=>{
     if(imgNum<images.length-2){
         imgtag1.src=images[imgNum++]
@@ -126,3 +67,72 @@ Gbbt.addEventListener("click",()=>{
         Gbbt.style.backgroundColor="#72619f"
     }
 })
+
+
+document.getElementById("f").addEventListener("click",()=>{
+    window.location.href="featurepro.html"
+})
+
+document.getElementById("r").addEventListener("click",()=>{
+    window.location.href="resumeWriting.html"
+})
+document.getElementById("c").addEventListener("click",()=>{
+    window.location.href="careerbooster.html"
+})
+document.getElementById("h").addEventListener("click",()=>{
+    window.location.href="profileHilighter.html"
+    
+})
+document.getElementById("l").addEventListener("click",()=>{
+    window.location.href="profileHilighter.html"
+})
+document.getElementById("m").addEventListener("click",()=>{
+    window.location.href="profileHilighter.html"
+
+})
+
+
+
+let button=document.getElementById("callm")
+button.style.cursor="pointer"
+button.addEventListener("click",()=>{
+    callme()
+
+})
+
+function callme(){
+    let cont=document.getElementById("fer")
+    
+    let name=document.getElementById("name").value
+    let mobile=document.getElementById("mobile").value
+    let email=document.getElementById("email").value
+    
+    if(name==""||mobile==""|| email==""){
+        alert("Fill All Data")
+    }
+    else{
+        cont.innerHTML=null
+        cont.innerHTML=rrr()
+        AddData(name,email,mobile)
+    }
+    // console.log(data)
+}
+let AddData=async(name,email,mobile)=>{
+    let data={
+       name,
+       email,
+       mobile,
+       id:Date.now()
+    }
+    let res=await fetch(`https://fierce-gorge-77743.herokuapp.com/userCall`,{
+        method:"POST",
+        body:JSON.stringify(data),
+        headers:{
+            "Content-Type":"application/json"
+        }
+        
+    })
+    res=await res.json()
+    console.log(res)
+
+}

@@ -8,23 +8,27 @@
     <link rel="stylesheet" href="./in.css">
     <script src="https://kit.fontawesome.com/ce38e0eef3.js" crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/ce38e0eef3.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./css/footer.css">
+    <link rel="stylesheet" href="./css/navbar.css">
 </head>
 <body>
+    <div id="fgnav"></div>
     <div id="Gbody">
         <div id="page">
-            <a href="">Home</i></a><i class="fa-duotone fa-triangle"></i>
+            <a href="index.html">Home</i></a><i class="fa-duotone fa-triangle"></i>
             <a href=""style="color: gray;">Premium Services</a><i class="fa-solid fa-triangle"></i>
             <a href=""style="color: gray;">Featurer Profile <i class="fa-solid fa-triangle"></i></a>
+            
         </div>
         <div id="main">
             <div id="ls">
                 <div id="nav">
-                    <p>Feature Profile</p>
-                    <p>Resume Writing</p>
-                    <p>Career Booster</p>
-                    <p>Proflie Highlighter</p>
-                    <p>LinkedIn Makeover</p>
-                    <p>Mock Interview</p>
+                    <p id="f">Feature Profile</p>
+                    <p id="r">Resume Writing</p>
+                    <p id="c">Career Booster</p>
+                    <p id="p"> Proflie Highlighter</p>
+                    <p id="l">LinkedIn Makeover</p>
+                    <p id="m">Mock Interview</p>
                 </div>
                 <div id="Gfeatur">
                     <div>
@@ -150,16 +154,16 @@
                         <p style="color: #1d1e1d; text-align: center;font-size: 18px;">Toll Free No: 1-800-4196666</p>
                         <p style="color: #1d1e1d;text-align: center; font-size: 18px; margin-top: -10px;">Toll No: +91-40-66116611</p>
                     </div>
-                    <div class="rightSection">
-                        <div class="rightHeading">
+                    <div class="rightSection" id="fer">
+                        <div class="rightHeading" >
                             <h3>CONTACT US</h3>
                             <p>Our executive will get in touch with you soon</p>
                         </div> 
-                        <div class="rightInputBoxes">
+                        <div class="rightInputBoxes" >
                             <label for="">Name <span>*</span></label> 
-                            <input type="text" autocomplete="nope" min="1" maxlength="100" name="fullName" placeholder="Enter your full name" class="field-error"> 
+                            <input type="text" autocomplete="nope" min="1" maxlength="100" name="fullName" placeholder="Enter your full name" class="field-error" id="name"> 
                             <label for="">Email ID <span>*</span></label> 
-                            <input type="email" placeholder="Enter your email-id" name="email" class="">
+                            <input type="email" placeholder="Enter your email-id" name="email" class="" id="email">
                             <label for="">Mobile Number <span>*</span></label> 
                             <div class="isdInput">
                                 <select name="" tabindex="-1" class="countryCodes" style="opacity: 1;">
@@ -268,7 +272,7 @@
                                     <option data-name="Iran" value="98">Iran +98</option><option data-name="Iraq" value="964">Iraq +964</option>
                                     <option data-name="Ireland" value="353">Ireland +353</option>
                                     </select>
-                                    <input autocomplete="nope" type="tel" placeholder="Enter your phone number" name="Mobile Number" class="IsdInput" maxlength="10">
+                                    <input autocomplete="nope" type="tel" placeholder="Enter your phone number" name="Mobile Number" class="IsdInput" maxlength="10" id="mobile">
                             </div>
                             <button id="callm">CALL ME BACK</button>
                         </div> 
@@ -284,7 +288,7 @@
                         <h3>Resume Writing</h3>
                     <p>Get professionally written resume which helps you get your dream job</p>
                     <button id="Gbtn1">Starting at Rs.2499</button>
-                    <span><a href="./#">Benefits</a></span>
+                    <span><a href="">Benefits</a></span>
                     </div>
                 </div>
                 <div id="profileHigh" class="Gresume">
@@ -295,7 +299,7 @@
                         <h2>Profile Highlighter</h2>
                     <p>Differentiate yourself from the crowd and increase visibility to the recruiters</p>
                     <button id="Gbtn2">Starting at Rs.999</button>
-                    <span ><a href="#">Benefits</a></span>
+                    <span ><a href="">Benefits</a></span>
                     </div>
                 </div>
             </div>
@@ -311,11 +315,11 @@
                 <div class="GLevel">
                     <input type="checkbox" name="" class="checkbox">
                     <div id="entr">
-                        <h3>Entry Level</h3>
-                        <p style="margin-top: -15px;">Experience</p>
-                        <p style="margin-top: -15px;">0-4 Years</p>
+                        <h3 id="h3">Entry Level</h3>
+                        <p id="p1" style="margin-top: -15px;">Experience</p>
+                        <p id="p2" style="margin-top: -15px;">0-4 Years</p>
                     </div>
-                    <p>Rs 1999</p>
+                    <p id="p3">Rs 1999</p>
                 </div>
                 <div class="GLevel">
                     <input type="checkbox" class="checkbox">
@@ -443,39 +447,7 @@
         </div>
        </div>
     </div>
-    <div id="abovefooter">
-        <div>
-            <select name="" id="country">
-                <option value="India">India</option>
-                <option value="Gulf">Gulf</option>
-                <option value="HongKong">Hong Kong</option>
-                <option value="Singapur">Singapur</option>
-                <option value="philippins">Philippins</option>
-                <option value="Thailand">Thailand</option>
-                <option value="Vietnam">Vietnam</option>
-                <option value="Indonesia">Indonesia</option>
-                <option value="Malaysia">Malaysia</option>
-            </select>
-        </div>
-        <div class="GLdiv">
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRu-PwGI4XTep-3ovZGsY2PsNhVRkUW2p48hQ&usqp=CAU" alt="" id="Glimg">
-            <div>
-                <p>Toll No: +91-40-66116611</p>
-                <p>Toll Free No: 1-800-4196666</p>
-            </div>
-        </div>
-        <div class="GLdiv">
-            <img src="https://icones.pro/wp-content/uploads/2021/05/icones-de-messagerie-violet.png" alt="">
-            <p>info@monsterindia.com</p>
-        </div>
-        <div id="Gsocial">
-            <a href="https://www.instagram.com/monster_india/"><i class="fa-brands fa-instagram"></i></a>
-            <a href="https://in.linkedin.com/company/monster-india"><i class="fa-brands fa-linkedin"></i></a>
-            <a href="https://twitter.com/monster_india"><i class="fa-brands fa-twitter"></i></a>
-            <a href="https://www.facebook.com/monsterindia"><i class="fa-brands fa-facebook"></i></a>
-    
-        </div>
-    </div>
-    </div>
+    <div id="fgfoot"></div>
 </body>
 </html>
+<script src="./scripts/featurpro.js" type="module"></script>
