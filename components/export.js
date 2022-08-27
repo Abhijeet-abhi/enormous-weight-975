@@ -7,61 +7,61 @@ let navbar = () => {
           <ul>
               <li><a href="#">JOBS BY LOCATION&nbsp;<i class="fa-regular fa-greater-than fa-fw"></i></a>
                   <ul>
-                      <li><a href="#">JOBS IN BANGALORE</a></li>
-                      <li><a href="#">JOBS IN MUMBAI</a></li>
-                      <li><a href="#">JOBS IN CHENNAI</a></li>
-                      <li><a href="#">JOBS IN COIMBATORE</a></li>
-                      <li><a href="#">JOBS IN HYDERABAD</a></li>
-                      <li><a href="#">JOBS IN KOLKATA</a></li>
-                      <li><a href="#">JOBS IN PUNE</a></li>
-                      <li><a href="#">JOBS IN DELHI NCR</a></li>
-                      <li><a href="#">JOBS IN NOIDA</a></li>
-                      <li><a href="#">JOBS IN GURGAON</a></li>
-                      <li><a href="#">VIEW ALL JOBS BY LOCATIONS</a></li>
+                      <li><a href="jobLocation.html">JOBS IN BANGALORE</a></li>
+                      <li><a href="jobLocation.html">JOBS IN MUMBAI</a></li>
+                      <li><a href="jobLocation.html">JOBS IN CHENNAI</a></li>
+                      <li><a href="jobLocation.html">JOBS IN COIMBATORE</a></li>
+                      <li><a href="jobLocation.html">JOBS IN HYDERABAD</a></li>
+                      <li><a href="jobLocation.html">JOBS IN KOLKATA</a></li>
+                      <li><a href="jobLocation.html">JOBS IN PUNE</a></li>
+                      <li><a href="jobLocation.html">JOBS IN DELHI NCR</a></li>
+                      <li><a href="jobLocation.html">JOBS IN NOIDA</a></li>
+                      <li><a href="jobLocation.html">JOBS IN GURGAON</a></li>
+                      <li><a href="jobLocation.html">VIEW ALL JOBS BY LOCATIONS</a></li>
                   </ul>
               </li>
               <li><a href="#">JOBS BY SKILLS<i class="fa-regular fa-greater-than fa-fw"></i></a>
                   <ul>
-                      <li><a href="#">ACCOUNTING JOBS</a></li>
-                      <li><a href="#">ANGULAR JOBS</a></li>
-                      <li><a href="#">CUSTOMER SERVICE JOBS</a></li>
-                      <li><a href="#">DATA ANALYST JOBS</a></li>
-                      <li><a href="#">DEVOPS JOBS</a></li>
-                      <li><a href="#">DIGITAL MARKETING JOBS</a></li>
-                      <li><a href="#">JAVA JOBS</a></li>
-                      <li><a href="#">NETWORK JOBS</a></li>
-                      <li><a href="#">PYTHON JOBS</a></li>
-                      <li><a href="#">SAP JOBS</a></li>
-                      <li><a href="#">VIEW ALL JOBS BY SKILLS</a></li>
+                      <li><a href="jobLocation.html">ACCOUNTING JOBS</a></li>
+                      <li><a href="jobLocation.html">ANGULAR JOBS</a></li>
+                      <li><a href="jobLocation.html">CUSTOMER SERVICE JOBS</a></li>
+                      <li><a href="jobLocation.html">DATA ANALYST JOBS</a></li>
+                      <li><a href="jobLocation.html">DEVOPS JOBS</a></li>
+                      <li><a href="jobLocation.html">DIGITAL MARKETING JOBS</a></li>
+                      <li><a href="jobLocation.html">JAVA JOBS</a></li>
+                      <li><a href="jobLocation.html">NETWORK JOBS</a></li>
+                      <li><a href="jobLocation.html">PYTHON JOBS</a></li>
+                      <li><a href="jobLocation.html">SAP JOBS</a></li>
+                      <li><a href="jobLocation.html">VIEW ALL JOBS BY SKILLS</a></li>
                   </ul>
               </li>
               <li><a href="#">JOBS BY TITLE<i class="fa-regular fa-greater-than fa-fw"></i></a>
                   <ul>
-                      <li><a href="#">NET DEVELOPER JOBS</a></li>
-                      <li><a href="#">ACCOUNTANT JOBS</a></li>
-                      <li><a href="#">ANDROID DEVELOPER JOBS</a></li>
-                      <li><a href="#">BUSSINESS ANALYST JOBS</a></li>
-                      <li><a href="#">GRAPHIC DESIGNER JOBS</a></li>
-                      <li><a href="#">JAVA DEVELOPER JOBS</a></li>
-                      <li><a href="#">PROJECT MANAGER JOBS</a></li>
-                      <li><a href="#">PYTHON DEVELOPER JOBS</a></li>
-                      <li><a href="#">RECRUITER JOBS</a></li>
-                      <li><a href="#">SOFTWARE ENGINEER JOBS</a></li>
+                      <li><a href="jobLocation.html">NET DEVELOPER JOBS</a></li>
+                      <li><a href="jobLocation.html">ACCOUNTANT JOBS</a></li>
+                      <li><a href="jobLocation.html">ANDROID DEVELOPER JOBS</a></li>
+                      <li><a href="jobLocation.html">BUSSINESS ANALYST JOBS</a></li>
+                      <li><a href="jobLocation.html">GRAPHIC DESIGNER JOBS</a></li>
+                      <li><a href="jobLocation.html">JAVA DEVELOPER JOBS</a></li>
+                      <li><a href="jobLocation.html">PROJECT MANAGER JOBS</a></li>
+                      <li><a href="jobLocation.html">PYTHON DEVELOPER JOBS</a></li>
+                      <li><a href="jobLocation.html">RECRUITER JOBS</a></li>
+                      <li><a href="jobLocation.html">SOFTWARE ENGINEER JOBS</a></li>
                   </ul>
               </li>
               <li><a href="#">JOBS BY FUNCTIONS<i class="fa-regular fa-greater-than fa-fw"></i></a>
                   <ul>
-                      <li><a href="#">IT JOBS</a></li>
-                      <li><a href="#">HR JOBS</a></li>
-                      <li><a href="#">MARKETING JOBS</a></li>
-                      <li><a href="#">SALES JOBS</a></li>
-                      <li><a href="#">FINANCE & ACCOUNTS</a></li>
-                      <li><a href="#">ADMIN/SECRETARIAL</a></li>
-                      <li><a href="#">PROJECT MANAGER JOBS</a></li>
-                      <li><a href="#">HEALTH CARE JOBS</a></li>
-                      <li><a href="#">LEGAL JOBS</a></li>
-                      <li><a href="#">PURCHASE & SUPPLY CHAIN JOBS</a></li>
-                      <li><a href="#">VIEW ALL JOBS BY FUNCTION</a></li>
+                      <li><a href="jobLocation.html">IT JOBS</a></li>
+                      <li><a href="jobLocation.html">HR JOBS</a></li>
+                      <li><a href="jobLocation.html">MARKETING JOBS</a></li>
+                      <li><a href="jobLocation.html">SALES JOBS</a></li>
+                      <li><a href="jobLocation.html">FINANCE & ACCOUNTS</a></li>
+                      <li><a href="jobLocation.html">ADMIN/SECRETARIAL</a></li>
+                      <li><a href="jobLocation.html">PROJECT MANAGER JOBS</a></li>
+                      <li><a href="jobLocation.html">HEALTH CARE JOBS</a></li>
+                      <li><a href="jobLocation.html">LEGAL JOBS</a></li>
+                      <li><a href="jobLocation.html">PURCHASE & SUPPLY CHAIN JOBS</a></li>
+                      <li><a href="jobLocation.html">VIEW ALL JOBS BY FUNCTION</a></li>
                   </ul>
               </li>
               <li><a href="#">JOBS BY INDUSTRY<i class="fa-regular fa-greater-than fa-fw"></i></a>
@@ -170,11 +170,11 @@ let navbar = () => {
           <ul>
               <li><a href="featurepro.html">FEATURED PROFILE</a></li>
               <li><a href="profileHilighter.html">PROFILE HIGHLIGHTER</a></li>
-              <li><a href="carrier.html">CAREER BOOSTER</a></li>
+              <li><a href="careerbooster.html">CAREER BOOSTER</a></li>
               <li><a href="resumeWriting.html">RESUME WRITING</a></li>
-              <li><a href="#">LINKEDIN MAKEOVER</a></li>
-              <li><a href="#">MOCK INTERVIEW</a></li>
-              <li><a href="#">PSYCHOMETRIC TEST</a></li>
+              <li><a href="featurepro.html">LINKEDIN MAKEOVER</a></li>
+              <li><a href="careerbooster.html">MOCK INTERVIEW</a></li>
+              <li><a href="profileHilighter.html">PSYCHOMETRIC TEST</a></li>
           </ul>
       </li>
       <li><a href="#">MORE</a>
