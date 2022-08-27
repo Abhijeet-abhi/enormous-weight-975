@@ -1,5 +1,5 @@
 let navbar = () => {
-    return `<div id="navbar">
+  return `<div id="navbar">
     <div id="menu1">
      <a href="./navbar.html"><img src="https://media.monsterindia.com/trex/public/default/images/monster-logo.svg" alt="img not available"></a>
      <ul>
@@ -155,9 +155,9 @@ let navbar = () => {
               <li><a href="#">VIEW ALL WORK FROM HOME JOBS</a></li>
           </ul>
       </li>
-      <li><a href="#">CAREER TIPS</a>
+      <li><a href="carrier_tips.html">CAREER TIPS</a>
           <ul>
-              <li><a href="#">COVID-19 CAREER ADVICE</a></li>
+              <li><a href="carrier_tips.html">COVID-19 CAREER ADVICE</a></li>
               <li><a href="#">JOBS SEARCH STRATEGY</a></li>
               <li><a href="#">RESUME & COVER LETTER</a></li>
               <li><a href="#">INTERVIEW TIPS</a></li>
@@ -168,10 +168,10 @@ let navbar = () => {
       </li>
       <li id="premium"><a href="#">PREMIUM SERVICES</a>
           <ul>
-              <li><a href="#">FEATURED PROFILE</a></li>
-              <li><a href="#">PROFILE HIGHLIGHTER</a></li>
-              <li><a href="#">CAREER BOOSTER</a></li>
-              <li><a href="#">RESUME WRITING</a></li>
+              <li><a href="featurepro.html">FEATURED PROFILE</a></li>
+              <li><a href="profileHilighter.html">PROFILE HIGHLIGHTER</a></li>
+              <li><a href="carrier.html">CAREER BOOSTER</a></li>
+              <li><a href="resumeWriting.html">RESUME WRITING</a></li>
               <li><a href="#">LINKEDIN MAKEOVER</a></li>
               <li><a href="#">MOCK INTERVIEW</a></li>
               <li><a href="#">PSYCHOMETRIC TEST</a></li>
@@ -189,8 +189,8 @@ let navbar = () => {
       </li>
      </ul>
     </div>
-    <div>
-      <button><i class="fa-solid fa-user"></i>  JOBSEEKER LOGIN</button>
+    <div id="loginAndsignup">
+      <button id="show_login_btn"><i class="fa-solid fa-user"></i>  JOBSEEKER LOGIN</button>
       <div class="dropdown">
       <button class="dropbtn">FOR EMPLOYERS</button>
         <div class="dropdown-content">
@@ -204,7 +204,7 @@ let navbar = () => {
 };
 
 let footer = () => {
-    return `<div class="links">
+  return `<div class="links">
     <div>
         <select name="country" id="countries">
             <option value="India">India</option>
@@ -295,6 +295,6 @@ let footer = () => {
         <p>© 2021 Monster - All Rights Reserved</p>
     </div>
    </div> `;
-}
+};
 
-export {navbar, footer};
+export { navbar, footer };
