@@ -7,8 +7,13 @@
   font-family: "Poppins", sans-serif;
 }
 
+#heading_div_1 > h1,
+h3 {
+  margin-left: 10px;
+}
+
 #logInForm {
-  width: 32%;
+  width: 92%;
   position: absolute;
   right: 0;
   top: 0;
@@ -16,7 +21,8 @@
   z-index: 2;
   background-color: white;
   padding-bottom: 10px;
-  border: 1px solid;
+  border: 1px solid black;
+  padding-left: 3px;
 }
 #logInForm > div:nth-child(1) {
   color: black;
@@ -101,14 +107,14 @@
 }
 
 #frgt_pass {
-  margin-left: 60%;
+  margin-left: 68%;
   color: #6c54da;
 
-  font-size: 20px;
+  font-size: 14px;
 }
 
 #otp {
-  font-size: 20px;
+  font-size: 17px;
   font-weight: bold;
   color: #6c54da;
   cursor: pointer;
@@ -136,6 +142,7 @@
   border-radius: 30px;
   justify-content: center;
   gap: 5px;
+  font-size: 12px;
 }
 #google_login:hover {
   background-color: #f14346;
@@ -158,6 +165,7 @@
   border-radius: 30px;
   justify-content: center;
   gap: 5px;
+  font-size: 12px;
 }
 
 #facebbok_login > img {
@@ -170,11 +178,12 @@
 }
 #login_div {
   /* border: 1px solid red; */
-  width: 40px;
+  width: 35%;
   height: 40px;
   margin-left: 65%;
   display: none;
-  margin-top: -35px;
+  top: 0;
+  position: absolute;
 }
 
 #login_div > button {
@@ -188,6 +197,7 @@
 }
 #login_div > button:hover {
   background-color: #6c54da;
+  position: absolute;
 }
 
 #or_div {
@@ -215,8 +225,8 @@
 }
 
 #signupForm {
-  width: 52%;
-  height: 1350px;
+  width: 55%;
+  height: 1550px;
   position: absolute;
   right: 0;
   top: 0;
@@ -224,7 +234,7 @@
   z-index: 2;
   background-color: white;
   padding-bottom: 10px;
-  border: 1px solid;
+  border: 1px solid black;
   text-align: center;
   padding-top: 50px;
   padding-left: 20px;
@@ -304,8 +314,8 @@
 #exp_country_div {
   display: flex;
   flex-direction: column;
-
-  gap: 50px;
+  /* border: 1px solid red; */
+  gap: 15px;
   height: auto;
 }
 
@@ -317,10 +327,11 @@
 
   color: gray;
   font-weight: 300;
-  margin-top: 30px;
+  margin-top: 25px;
+  /* border: 1px solid red; */
 }
 #exp_country_form > div > label {
-  margin-top: 100px;
+  margin-top: 50px;
   /* border: 1px solid red; */
 }
 #country_input,
@@ -389,7 +400,6 @@
 
   text-align: left;
   display: block;
-  position: absolute;
 }
 .list-items,
 .list-skills,
@@ -511,7 +521,7 @@
   border-radius: 30px;
   justify-content: center;
   gap: 5px;
-  font-size: 14px;
+  font-size: 12px;
 }
 #google_signup:hover {
   background-color: #f14346;
@@ -534,7 +544,7 @@
   border-radius: 30px;
   justify-content: center;
   gap: 5px;
-  font-size: 14px;
+  font-size: 12px;
 }
 
 #facebbok_signup > img {
