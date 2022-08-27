@@ -32,22 +32,27 @@
     display: flex;
     border-bottom: 3px solid #60489d;
     justify-content: space-between;
+    align-items: center;
     /* gap: 20px; */
+    /* border: 4px solid green; */
 }
 #nav>p{
     /* border: 1px solid; */
-    height: 35px;
+    height: 50px;
     width: 90%;
     text-align: center;
     font-weight: 600;
     font-size: 17px;
-    padding-top: 20px;
-    padding-bottom: -10px;
+    padding-top: 15px;
+    /* padding-bottom: 20px; */
     margin-bottom: 1px;
+
 }
 #nav>p:hover{
     border-radius: 10px;
     border: none;
+    padding-left: 5px;
+    padding-right: 5px;
     background-color: #efedf6;
 }
 /* **************************************** Feature profile ************************ */
@@ -56,14 +61,16 @@
     justify-content: space-between;
     margin:20px 0px;
     padding: 20px;
-    background-color: #f5f3fa;
+    background-color: #efedf6;
     border-radius: 20px;
-    height: 150px;
+    height: 180px;
+    /* border: 1px solid; */
+    line-height: 40px;
 
 }
 #GFeaImg{
     margin-right: 30px;
-    height: 200px;
+    height: 170px;
     width: 20%;
 
 }
@@ -94,8 +101,11 @@
 .list>i{
     color: #60489d;
     font-size: 25px;
+    margin-top: 20px;
 }
-
+.list>h3{
+    margin-top: 20px;
+}
 /*  ******************* profile work ********************* */
 #fprfile_card{
     display: flex;
@@ -118,6 +128,7 @@
     width: 65%;
     margin: auto;
     margin-top: 20px;
+    line-height: 25px;
     
 }
 
@@ -210,11 +221,13 @@
     border-radius: 7px;
     padding: 19px 40px;
 
+
 }
 .lsGexpert{
     /* border: 1px solid ; */
     width: 40%;
     font-weight: 600;
+    line-height: 40px;
 
     
 }
@@ -267,6 +280,7 @@
     display: flex;
     justify-content: space-between;
     gap: 20px;
+    line-height: 25px;
 
 }
 .Gresume{
@@ -297,6 +311,7 @@
     background-color: #60489d;
     color: #fff;    
     margin-right: 20%;
+    margin-top: 20px;
 }
 
 /*       *********************************** right row  *********************** */
@@ -379,7 +394,10 @@
 #entr,#mid,#senior,#Executive{
     /* border: 1px solid; */
     margin-left: -5%;
-    max-width: 100px;
+    max-width: 140px;
+    font-size: 14px;
+    line-height: 40px;
+
 }
 #rbtn{
     width: 100%;
@@ -416,6 +434,7 @@
 #Gresume{
     border: 1px solid;
     display: flex;
+
 }
 #profileHigh>div>img,#Gresume>div>img{
     width: 100%;

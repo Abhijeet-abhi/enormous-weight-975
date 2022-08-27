@@ -102,12 +102,12 @@ function scrollr1() {
   right1.scrollBy(-350, 0);
 }
 //about search section
-let y = "true";
-let logout = () => {
-  let x = false;
-  localStorage.setItem("loginstatus", x);
-  window.location.href = "login.html";
-};
+let y = localStorage.getItem("loginStatus");
+// let logout = () => {
+//   let x = false;
+//   localStorage.setItem("loginstatus", x);
+//   window.location.href = "login.html";
+// };
 if (y == "true") {
   let z = JSON.parse(localStorage.getItem("UserDetails"));
   let x = document.getElementById("ifloggedIn");
@@ -125,19 +125,8 @@ if (y == "true") {
   p3.innerText = "JOB ALERTS";
   let p4 = document.createElement("p");
   p4.innerText = "Update Job Alerts based on various criteria";
-  let btn1 = document.createElement("button");
-  btn1.setAttribute("class", "myProfile");
-  btn1.innerText = "Create Alert";
-  div2.append(p3, p4, btn1);
-  let hr2 = document.createElement("hr");
-  let div3 = document.createElement("div");
-  let p5 = document.createElement("p");
-  p5.innerText = "100 Recommended Jobs for You";
-  let btn2 = document.createElement("button");
-  btn2.setAttribute("class", "myProfile");
-  btn1.innerText = "View Jobs";
-  div3.append(p5, btn2);
-  div1.append(h21, p1, p2, hr1, div2, hr2, div3);
+  div2.append(p4);
+  div1.append(h21, p1, p2, hr1, p3, div2);
   x.append(div1);
   console.log("hi");
 }
