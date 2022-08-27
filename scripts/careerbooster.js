@@ -1,22 +1,24 @@
 import {Jobs} from "./jobserchhtml.js"
 document.getElementById("jobloc").innerHTML=Jobs()
-import {footer,navbar} from "../components/export.js"
-document.getElementById("pgnav").innerHTML=navbar()
-document.getElementById("pgfoot").innerHTML=footer()
+import {navbar,footer} from "../components/export.js"
+document.getElementById("Gnav").innerHTML=navbar()
+document.getElementById("cgfoot").innerHTML=footer()
 
-
-let btn1=document.getElementById("Rbtn")
+let btn1=document.getElementById("GRbtn")
 btn1.style.cursor="pointer"
 btn1.addEventListener("click",()=>{
-    let month=document.getElementById("month1").innerText
-    let price=document.getElementById("price1").innerText
+    let level=document.getElementById("h3").innerText
+    let experience=document.getElementById("p2").innerText
+    let price=document.getElementById("p3").innerText
     let data={
-        month,
+        level,
+        experience,
         price
     }
     console.log(data)
-    window.location.href="#"
+    window.location.href="index.html"
 });
+
 
 function rrr(){
     return `<div id="div">
@@ -25,7 +27,6 @@ function rrr(){
     </div>`
 }
 let button=document.getElementById("callm")
-button.style.cursor="pointer"
 button.addEventListener("click",()=>{
     callme()
 
@@ -68,9 +69,13 @@ let AddData=async(name,email,mobile)=>{
 
 }
 
-document.getElementById("f").addEventListener("click",()=>{
+
+document.getElementById("f").addEventListener("click",()=> {
     window.location.href="featurepro.html"
+    console.log("feature")
 })
+
+
 
 document.getElementById("r").addEventListener("click",()=>{
     window.location.href="resumeWriting.html"
@@ -78,14 +83,51 @@ document.getElementById("r").addEventListener("click",()=>{
 document.getElementById("c").addEventListener("click",()=>{
     window.location.href="careerbooster.html"
 })
-document.getElementById("p").addEventListener("click",()=>{
+document.getElementById("h").addEventListener("click",()=>{
     window.location.href="profileHilighter.html"
-    
 })
 document.getElementById("l").addEventListener("click",()=>{
-    window.location.href="profileHilighter.html"
+    window.location.href="featurepro.html"
+    console.log("linkdn")
 })
 document.getElementById("m").addEventListener("click",()=>{
-    window.location.href="profileHilighter.html"
+    window.location.href="careerbooster.html"
+})
 
+
+let getData=async()=>{
+    let todo=document.getElementById('todo')
+    let res=await fetch("https://fierce-gorge-77743.herokuapp.com/image")
+    let data=await res.json();
+    return data
+}
+let images= await getData()
+let imgtag1=document.getElementById("img1")
+let imgtag2=document.getElementById("img2")
+let imgtag3=document.getElementById("img3")
+let imgNum=0;
+let Gbtn1=document.getElementById("btt1");
+Gbtn1.addEventListener("click",()=>{
+    
+    if(imgNum>2){
+        imgtag1.src=images[imgNum--]
+    imgtag2.src=images[imgNum--]
+    imgtag3.src=images[imgNum--]
+    }
+    if(imgNum===0){
+        Gbtn1.style.backgroundColor="#72619f"
+    }
+})
+
+
+let Gbbt=document.getElementById("btt2")
+Gbbt.addEventListener("click",()=>{
+    if(imgNum<images.length-2){
+        imgtag1.src=images[imgNum++]
+    imgtag2.src=images[imgNum++]
+    imgtag3.src=images[imgNum++]
+    }
+    if(imgNum===images.length-3){
+        Gbbt.style.backgroundColor="#72619f"
+    }
 })

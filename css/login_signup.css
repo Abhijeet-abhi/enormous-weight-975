@@ -254,16 +254,17 @@ h3 {
 
 #file-upload {
   border: 1px solid gray;
-  width: 387px;
+  width: 60%;
   height: 42px;
   border-radius: 5px;
   padding-top: 3px;
   padding-left: 2px;
   color: transparent;
+  /* border: 2px solid green; */
 }
 #upload_image {
   position: absolute;
-  margin-left: -40%;
+  margin-left: -35.5%;
   margin-top: 2px;
 }
 
@@ -560,7 +561,7 @@ h3 {
   color: gray;
   margin-top: 10px;
   text-align: left;
-  margin-left: 8%;
+  margin-left: 12.5%;
   margin-bottom: 8px;
 }
 
@@ -568,7 +569,10 @@ h3 {
   display: flex;
   /* border: 1px solid red; */
   align-items: center;
-  width: 85%;
+  /* justify-content: space-between;
+   */
+   gap: 30px;
+  width: 75%;
 
   margin: auto;
   margin-bottom: 20px;

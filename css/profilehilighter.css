@@ -9,16 +9,16 @@
     margin-left: 3%;
     /* border: 1px solid ; */
 }
-#page>a{
+#Gpage>a{
     margin-right: 5px;
     font-size: 17px;
 }
-#page>i{
+#Gpage>i{
     margin-right: 5px;
     
 }
 
-#main{
+#Gmain{
     display: flex;
 }
 #ls{
@@ -28,7 +28,7 @@
     padding: 10px;
 }
 /* ******************************* nav ******************************** */
-#nav{
+#Gnav{
     display: flex;
     border-bottom: 3px solid #60489d;
     justify-content: space-between;

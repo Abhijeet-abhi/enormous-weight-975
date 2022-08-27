@@ -1,0 +1,124 @@
+#srevicePackege{
+    width: 80%;
+    margin:auto;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+    padding-top: 10px;
+}
+.ServiceMiddleBox{
+    width: 100%;
+    padding: 10px;
+    margin: auto;
+    height: 350px;
+    overflow: scroll;
+}
+
+.GLevel{
+    width: 90%;
+    margin: auto;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid gray;
+    border-radius: 10px;
+    height: 100px;
+    
+}
+.GLevel:hover{
+    background-color: #efedf6;
+}
+
+.checkbox{
+    border:1px solid ;
+    width: 1.5em;
+    height: 1.3em; 
+    vertical-align: middle;
+    border: 1px solid #60489d ;
+    margin-left: -10px;
+    
+}
+
+#entr,#mid,#senior,#Executive{
+    /* border: 1px solid; */
+    margin-left: -5%;
+    max-width: 100px;
+}
+
+/* ********************************************************************* */
+#right{
+    display: flex;
+}
+
+/* *********************************************************************************** */
+#Gbenefites{
+    display: grid;grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat((auto));
+    gap: 20px;
+    /* width: 1200px; */
+    /* height: 1200px; */
+}
+.div_1{
+    width: 500px;
+    height: 140px;
+    border-radius: 10px;
+    background-color: #efedf6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.div_1>img{
+    width: 70px;
+    margin-top: 40px;
+    /* border: 1px solid; */
+    /* margin-left: -20px; */
+}
+.div_1>p{
+    width: 350px;
+    padding-right: 15px;
+    font-family: poppins;
+    font-size: 22px;
+    font-weight: 500;
+}
+#Gtext{
+    display: flex;
+    /* border: 1px solid red; */
+    height: 450px;
+    width: 1080px;
+    align-items: center;
+}
+#die1,#die2{
+    width: 50%;
+    height: 400px;
+    background-color: #efedf6;
+    border-radius: 20px;
+    padding: 20px
+}
+#die1{
+    /* margin-right: ; */
+}
+ #die1>img,#die2>img{
+    width: 70%;
+    display: block;
+    height: 300px;
+    /* border: 1px solid; */
+    margin: auto;
+}
+#die1>p,#die2>p{
+    margin-top: -15px;
+    color: #60489d;
+}
+#die3{
+    width: 80px;
+    height: 60px;
+    background-color: #60489d;
+    font-size: 14px;
+    border-radius: 100%;
+} 
+#die3>img{
+    width: 80px;
+    height: 60px; 
+    margin: auto;
+}
+/* ************************************* */

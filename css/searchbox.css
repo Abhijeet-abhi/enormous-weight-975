@@ -80,21 +80,22 @@ body {
 
 #location-icon {
   position: absolute;
-  margin-right: 155px;
+  margin-right: 12%;
   color: rgb(160, 150, 150);
 }
 #briefcase-icon {
   position: absolute;
-  margin-left: 720px;
+  margin-left: 50%;
   color: rgb(160, 150, 150);
 }
 #magnifying-icon {
   position: absolute;
-  margin-right: 1180px;
+  margin-right:87%;
   color: rgb(160, 150, 150);
 }
 #microphone-icon {
   position: absolute;
-  margin-right: 250px;
+  margin-right: 20%;
   color: rgb(160, 150, 150);
+  /* border: 5px solid red; */
 }

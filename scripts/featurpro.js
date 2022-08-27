@@ -1,21 +1,23 @@
-import {Jobs} from "./jobserchhtml.js"
-document.getElementById("jobloc").innerHTML=Jobs()
-import {footer,navbar} from "../components/export.js"
-document.getElementById("pgnav").innerHTML=navbar()
-document.getElementById("pgfoot").innerHTML=footer()
+import {navbar ,footer} from "../components/export.js"
+document.getElementById("fgnav").innerHTML=navbar()
+document.getElementById("fgfoot").innerHTML=footer()
+console.log(footer())
+console.log(navbar())
 
 
-let btn1=document.getElementById("Rbtn")
+let btn1=document.getElementById("GRbtn")
 btn1.style.cursor="pointer"
 btn1.addEventListener("click",()=>{
-    let month=document.getElementById("month1").innerText
-    let price=document.getElementById("price1").innerText
+    let level=document.getElementById("h3").innerText
+    let experience=document.getElementById("p2").innerText
+    let price=document.getElementById("p3").innerText
     let data={
-        month,
+        level,
+        experience,
         price
     }
     console.log(data)
-    window.location.href="#"
+    window.location.href="index.html"
 });
 
 function rrr(){
@@ -32,7 +34,7 @@ button.addEventListener("click",()=>{
 })
 
 function callme(){
-    let cont=document.getElementById("rigt")
+    let cont=document.getElementById("fer")
     
     let name=document.getElementById("name").value
     let mobile=document.getElementById("mobile").value
@@ -68,6 +70,7 @@ let AddData=async(name,email,mobile)=>{
 
 }
 
+
 document.getElementById("f").addEventListener("click",()=>{
     window.location.href="featurepro.html"
 })
@@ -89,3 +92,7 @@ document.getElementById("m").addEventListener("click",()=>{
     window.location.href="profileHilighter.html"
 
 })
+
+
+
+
