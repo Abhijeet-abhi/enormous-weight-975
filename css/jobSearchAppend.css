@@ -1,0 +1,103 @@
+#append-data-container-am{
+    width: 55%;
+    /* border: 2px solid green; */
+    display: grid;
+    grid-template-columns: 1,1fr;
+    grid-template-rows: repeat(19,auto);
+    gap: 60px;
+    margin-left: 35px;
+}
+.job-details-div{
+    border: 2px solid white;
+    background-color: white;
+    line-height: 30px;
+    cursor: pointer;
+}
+.job-details-div > a{
+    text-decoration: none;
+    color: #6C54DA;
+}
+.job-details-div > a:hover{
+    text-decoration: underline;
+}
+.job-details-div-2{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.small-tag{
+    font-size: 17px;
+}
+#icon{
+    padding: 0px 20px 0px 10px;
+    color: rgb(136, 127, 127);
+}
+
+#job-alert{
+    width: 14%;
+    height: 50%;
+    /* border: 2px solid green; */
+    margin-left: 30px;
+    text-align: center;
+    font-size: 22px;
+    color: #6C54DA;
+    margin-top: -40;
+    margin-left: 40px;
+}
+#job-alert > span{
+    padding-left: 8px;
+    cursor: pointer;
+
+}
+.job-alert-child{
+    width: 100%;
+    margin-top: 15px;
+    border: 2px solid white;
+    background-color: white;
+    margin: auto;
+    font-size: 19px;
+    line-height: 27px;
+    margin-top: 15px;
+}
+.job-alert-child > small:first-child{
+    color: black;
+}
+.job-alert-child > p{
+    color: rgb(184, 174, 174);
+    font-size: 15px;
+}
+.upload-resume{
+    width: 80%;
+    margin: auto;
+    font-size: 13px;
+    margin-bottom: 15px;
+    color: white;
+    background-color: #f5a623;
+    cursor: pointer;
+}
+.upload-resume > small{
+    font-size: 13px;
+}
+.job-details-div3{
+    width: 100%;
+    height: 30%;
+    background-color: #EBEBEB;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.job-details-div3 > button{
+    width: 15%;
+    padding: 8px;
+}
+.job-details-div3 > button:hover{
+    background-color: #6C54DA;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.job-details-div3 > p{
+    color: #6C54DA;
+
+
+}
