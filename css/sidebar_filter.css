@@ -3,11 +3,13 @@
     /* border: 2px solid red; */
     margin: auto;
     margin-top: 70px;
+    display: flex;
+    /* justify-content: space-evenly; */
 }
 
 #sidebar-filter-am{
     width: 25%;
-    height: 600px;
+    /* height: 600px; */
     /* border: 2px solid black; */
 }
 .inside-sidebar{
@@ -51,7 +53,7 @@
     color: #000;
     font-family: sans-serif;
 }
-#plus-am{
+#plus-am,#plus-ex-am,#plus-salary-am,#plus-role-am{
     padding-right: 30px;
     font-size: 1rem;
     cursor: pointer;
@@ -64,4 +66,10 @@
     margin-bottom: 4px;
     /* border: 2px solid red; */
 }
+
+.checkbox{
+    width: 20%;
+    height: 20px;
+}
+
 
