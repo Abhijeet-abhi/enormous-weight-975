@@ -34,18 +34,18 @@
     justify-content: space-between;
     /* gap: 20px; */
 }
-#nav>p{
+#Gnav>p{
     /* border: 1px solid; */
-    height: 35px;
+    height: 40px;
     width: 90%;
     text-align: center;
     font-weight: 600;
     font-size: 17px;
-    padding-top: 20px;
-    padding-bottom: -10px;
+    padding-top: 10px;
+    /* padding-bottom: -10px; */
     margin-bottom: 1px;
 }
-#nav>p:hover{
+#Gnav>p:hover{
     border-radius: 10px;
     border: none;
     background-color: #efedf6;
@@ -56,10 +56,16 @@
     justify-content: space-between;
     margin:20px 0px;
     padding: 20px;
-    background-color: #f5f3fa;
+    background-color: #efedf6;
     border-radius: 20px;
-    height: 150px;
+    height: 180px;
+    line-height: 25px;
 
+}
+
+#Gfeatur>div>p{
+    line-height: 35px;
+    margin-top: 30px;
 }
 #GFeaImg{
     margin-right: 30px;
@@ -278,9 +284,14 @@
     background-color: #efedf6;
     border-radius: 10px;
     padding: 10px;
+    line-height: 25px;
 }
 .GresumeImg{
     width: 200px;
+}
+
+#entr,#mid,#senior,#Executive{
+    line-height: 35px;
 }
 #GproImg{
     height: 123px;
@@ -297,6 +308,7 @@
     background-color: #60489d;
     color: #fff;    
     margin-right: 20%;
+    margin-top: 20px;
 }
 
 /*       *********************************** right row  *********************** */
@@ -304,7 +316,6 @@
     border-radius: 10px ;
     width: 30%;
     height: 530px; 
-
 }
 
 #Gcall{
@@ -397,6 +408,10 @@
     padding-left: 8px;
     padding-right: 3px;
 
+}
+
+#Gtext >div>p,h3{
+    margin-top: 15px;
 }
 
 #one:hover,#two:hover,#three:hover{
